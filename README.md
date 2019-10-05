@@ -21,17 +21,16 @@ The code contains the success scenario of Gossip and Push sum implementation.
 
 Different Topologies implemented are as follows:
 Full Topology: Each actor is connected to every actor apart from itself.
-Line Topology: Each actor is connected to two other actors except those on the extreme ends contain one neighbor
+
+Line Topology: Each actor is connected to two other actors except those on the extreme ends contain one neighbor.
+
 Random 2D Topology: Each actor is assigned a random x and y co-ordinate. Each actor is then connected to every actor within the distance of 0.1. 
+
 HoneyComb Topology: Here each actor is connected to at max 3 neighbors or min 1 2 neighbors on the basis of its position in the honeycomb structure.
-Random HoneyComb Topology: Its similar to honeycomb structure, with an extra random node connected to each node
+
+Random HoneyComb Topology: Its similar to honeycomb structure, with an extra random node connected to each node.
+
 3D Torus Topology: This is a 3D grid and the actors are connected to 6 other actors.
 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/gossip_test](https://hexdocs.pm/gossip_test).
 
